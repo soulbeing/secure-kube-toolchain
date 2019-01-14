@@ -309,6 +309,7 @@ stages:
     target:
       region_id: ${PROD_REGION_ID}
       api_key: ${API_KEY}
+      resource_group: group2
       kubernetes_cluster: ${PROD_CLUSTER_NAME}
     script: |
       #!/bin/bash
@@ -403,6 +404,7 @@ stages:
     target:
       region_id: ${PROD_REGION_ID}
       api_key: ${API_KEY}
+      resource_group: group1
       kubernetes_cluster: ${PROD_CLUSTER_NAME}
     script: |
       #!/bin/bash
